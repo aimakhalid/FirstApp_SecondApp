@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <Spinner android:id="@+id/table_spinner"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="8dp"
+             android:background="@drawable/edittext_style"
+             android:layout_marginTop="10dp"/>
+
+    <Button android:id="@+id/confirm_order"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Confirm Order"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_style"
+            android:layout_height="35dp"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="@dimen/ten_dp"
+                  android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardElevation="0dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="10dp">
+            <ImageView android:id="@+id/menuthumbnail"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="centerCrop"
+                       android:src="@drawable/ic_logo"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView android:id="@+id/menuname"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Pizza"
+                  android:maxLines="2"
+                  android:minLines="1"
+                  android:textSize="16sp"
+                  android:layout_marginTop="5dp"
+                  android:textAlignment="center"
+                  android:textColor="@android:color/black"/>
+        <TextView android:id="@+id/menustock"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Stock: 200"
+                  android:maxLines="1"
+                  android:textColor="@color/colorAccent"
+                  android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

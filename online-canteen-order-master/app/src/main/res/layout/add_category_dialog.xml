@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:background="@android:color/white"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/dialog_title"
+            style="@style/textViewStyle"
+            android:text="@string/name_textview"/>
+    <EditText
+            android:id="@+id/dialog_name"
+            style="@style/edittextStyle"
+            android:inputType="text"
+            android:hint="@string/name"
+            android:drawableStart="@drawable/ic_text"
+            android:drawableLeft="@drawable/ic_text"/>
+
+    <Button android:id="@+id/dialog_add"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:paddingLeft="@dimen/fifteen_dp"
+            android:paddingRight="@dimen/fifteen_dp"
+            android:text="@string/add_category"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_style"
+            android:layout_height="35dp"/>
+
+</LinearLayout>
